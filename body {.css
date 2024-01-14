@@ -1,0 +1,189 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Header styles */
+  /* Additional styles for the header with background image */
+
+header {
+    background-image: url('IMG_E1251.JPG');
+    background-size: cover; /* Adjust as needed: cover, contain, or specific dimensions */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Adjust text color for better contrast */
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  #logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    animation: scale 3s ease-in-out infinite;
+    filter: grayscale(20%);
+  }
+  
+  /* Other styles for navigation, content, etc. */
+  
+
+  /* Navigation styles */
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  /* Hero section styles */
+  .hero {
+    background-image: url('fellga.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+
+  /* Call-to-action button styles */
+  .cta-button {
+    display: inline-block;
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .cta-button:hover {
+    background-color: #333;
+  }
+
+  /* Main content container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Service section styles */
+  #services {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+
+  /* Gallery section styles */
+  #Gallery {
+    background-color: #f8f8f8;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+
+  /* Contact section styles */
+  #contact {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+  
+  p{
+    font-weight: bold;
+  }
+  
+
+  /* Footer styles */
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  /* Additional styles for the rotating logo */
+
+/* Additional styles for the logo with scaling animation */
+
+@keyframes scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  #logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+  
+  #logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    animation: scale 3s ease-in-out infinite; /* Adjust the animation duration as needed */
+  }
+  
+  #logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    animation: scale 3s ease-in-out infinite;
+    filter: grayscale(20%); /* Adjust the grayscale filter as needed */
+  }
+
+  /* Additional styles for social icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px; /* Adjust the width of the icons as needed */
+    height: auto;
+  }
+  
+  
